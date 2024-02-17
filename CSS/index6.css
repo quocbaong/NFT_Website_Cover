@@ -1,0 +1,17 @@
+.icons{
+    text-align: center;
+    margin: 20px;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.fa-solid.fa-house.fa-5x {
+    color: hsl(0, 0%, 50%);
+}
+
+.fa-brands.fa-tiktok.fa-5x{
+    color: black;
+}
