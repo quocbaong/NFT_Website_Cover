@@ -116,7 +116,7 @@ h2.separator {
     gap: 30px;
 }
 
-.sell-nft .item{
+.sell-nft .item, .nft-shop .nft-list .item{
     padding: 20px;
     background: #fff;
     border-radius: 18px;
@@ -124,7 +124,7 @@ h2.separator {
     transition: all 0.3s ease;
 }
 
-.sell-nft .item:hover{
+.sell-nft .item:hover, .nft-shop .nft-list .item:hover{
     box-shadow: none;
 }
 
@@ -163,6 +163,102 @@ h2.separator {
     font-size: 15px;
     border-radius: 14px;
     transition: all 0.3s ease;
+}
+
+.nft-shop .category a:hover{
+    color: #fff;
+    background-color: #6c83c6;
+}
+
+.nft-shop .nft-list{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nft-shop .nft-list .item img{
+    width: 280px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.nft-shop .nft-list .item .info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #edecec;
+}
+
+.nft-shop .nft-list .item .info h5{
+    font-size: 18px;
+}
+
+.nft-shop .nft-list .item .info .btc{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nft-shop .nft-list .item .info .btc i{
+    font-size: 20px;
+    color: #304ffe;
+}
+
+.nft-shop .nft-list .item .info .btc p{
+    font-size: 12px;
+    color: #304ffe;
+}
+.nft-shop .nft-list .item .info >p{
+    font-size: 12px;
+    color: #989898;
+}
+
+.nft-shop .nft-list .item .bid {
+    padding: 14px 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nft-shop .nft-list .item .bid p{
+    padding: 6px 10px;
+    background-color: #edecec;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.nft-shop .nft-list .item .bid a{
+    padding: 6px 10px;
+    background-color: #edecec;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #304ffe;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.view-more {
+    margin: 10px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+.view-more button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background: #dfdcdc;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+
+.view-more button:hover{
+    color: #fff;
+    background: #777;
 }
 
 
